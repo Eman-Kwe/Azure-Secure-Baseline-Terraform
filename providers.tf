@@ -9,6 +9,7 @@ terraform {
   }
 }
 
+
 provider "azurerm" {
   features {} # required, even when empty
 
@@ -18,3 +19,5 @@ provider "azurerm" {
   # Auth comes from the 'az login' session — no credentials in code
   subscription_id = var.subscription_id
 }
+
+

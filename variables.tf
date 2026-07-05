@@ -50,6 +50,10 @@ variable "vm_size" {
   default     = "Standard_D2als_v7"
 }
 
+variable "vm_principal_id" {
+  description = "The VM's managed identity principalId (az vm identity show)"
+  type        = string
+}
 
 locals {
   # Locals, not a variable: tags are DERIVED from environment so they can never drift from it
