@@ -326,37 +326,6 @@ A lab you can destroy cleanly is a lab you actually control.
 
 ---
 
-## Screenshots to capture
-
-For GitHub and Medium, save screenshots of:
-
-- Terraform apply success
-- Resource group overview
-- Virtual network and subnets
-- NSG inbound rules
-- Linux VM overview
-- Storage account configuration
-- Key Vault RBAC assignments
-- Policy compliance dashboard
-- Terraform destroy confirmation
-
-These screenshots make the project more believable and much easier to present in an interview.
-
----
-
-## Interview talking points
-
-Here are the exact kinds of things to say in an interview:
-
-- “I built a segmented Azure environment using Terraform so the infrastructure was repeatable and not dependent on portal clicks.”
-- “I used least-privilege NSG rules to restrict SSH access to my IP.”
-- “The VM uses SSH keys only, which improves administrative security.”
-- “I used managed identity with Key Vault so the VM could retrieve secrets without storing credentials locally.”
-- “I included policy and compliance visibility because I wanted the project to reflect governance, not just provisioning.”
-- “This project helped me practice Azure in a hands-on way and better understand how the services work together.”
-
----
-
 ## Common issues and fixes
 
 | Problem | Likely cause | Fix |
