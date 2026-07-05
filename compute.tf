@@ -26,7 +26,7 @@ resource "azurerm_linux_virtual_machine" "lab" {
   name                = "vm-${local.name_prefix}"
   location            = azurerm_resource_group.lab.location
   resource_group_name = azurerm_resource_group.lab.name
-  size                = var.vm_size  # must be available to the subscription in var.location (az vm list-skus)
+  size                = var.vm_size # must be available to the subscription in var.location (az vm list-skus)
   admin_username      = var.admin_username
   tags                = local.common_tags
 
